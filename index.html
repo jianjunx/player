@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>plyer</title>
+	<script>
+		document.querySelector('html').style.fontSize = window.screen.width / 10 + 'px';
+	</script>
+	<link rel="stylesheet" type="text/css" href="./css/index.css" />
+</head>
+
+<body>
+	<div class="player">
+		<!-- header start  -->
+		<header>
+			<i class="top-back iconfont icon-fanhui1"></i>
+			<div class="top-info">
+				<div class="top-name"></div>
+				<div class="top-singer"></div>
+			</div>
+			<i class="top-share iconfont icon-fenxiang"></i>
+		</header>
+		<!-- header end  -->
+		<!-- main start  -->
+		<main>
+			<div class="main-ping">
+				<div class="main-ping-box"></div>
+			</div>
+			<div class="main-cd">
+				<div class="media-cover"></div>
+				<div class="main-cd-cover">
+					<audio class="media"></audio>
+				</div>
+			</div>
+			<div class="main-control">
+				<i class="iconfont icon-xin"></i>
+				<i class="iconfont icon-xiazai"></i>
+				<i class="iconfont icon-shoucangjiaweikong-copy"></i>
+				<i class="iconfont icon-iconfont-edu06"></i>
+			</div>
+			<div class="main-lrc">
+				<div class="main-lrc-vol">
+					<i class="iconfont icon-icon-test3"></i>
+					<div class="vol-box">
+						<div class="vol-seat">
+							<div class="vol-silder"></div>
+						</div>
+					</div>
+					<i class="iconfont icon-icon-test4"></i>
+				</div>
+				<p>暂时没有歌词</p>
+				<p></p>
+			</div>
+		</main>
+		<!-- main end  -->
+		<!-- footer start  -->
+		<footer>
+			<div class="foot-bar">
+				<div class="current-time">00:00</div>
+				<div class="progress-box">
+					<div class="progress-seat">
+						<div class="progress-silder"></div>
+					</div>
+				</div>
+				<div class="total-time">03:20</div>
+			</div>
+			<div class="foot-control">
+				<i class="loop-mode iconfont icon-liebiaoxunhuan"></i>
+				<i class="prev-song iconfont icon-xiayiqu1011"></i>
+				<i class="play-pause iconfont icon-bofangqiicon"></i>
+				<i class="next-song iconfont icon-xiayiqu101"></i>
+				<i class="song-list iconfont icon-liebiao"></i>
+			</div>
+			<!-- song list start  -->
+			<ul class="music-list">
+				<li class="music-list-top">
+					<i class="iconfont icon-liebiaoxunhuan">&nbsp;列表循环</i>
+					<div>
+						<i class="iconfont icon-shoucangjiaweikong-copy">&nbsp;收藏</i>
+						<span class="music-list-line"></span>
+						<i class="remove-all iconfont icon-qingkong">&nbsp;清空</i>
+					</div>
+				</li>
+				<li class="music-list-body">
+					<ol>
+					</ol>
+				</li>
+				<li class="music-list-close">关闭</li>
+			</ul>
+
+			<!-- song list end  -->
+		</footer>
+		<!-- footer end  -->
+</body>
+<script type="text/javascript" src="./js/songInfo.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+<!--  by jsung  -->
+</html>
